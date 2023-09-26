@@ -1,0 +1,85 @@
+body{
+    padding: 0;
+    margin: 0;
+    text-align: justify;  
+}
+
+.topo{
+    background-color: blueviolet;
+    color: aliceblue;
+    height: 60px;
+    width: 100%;
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-left: 70px;
+    padding-top: 15px;
+    text-align: left;
+    position: fixed;
+}
+
+.topo a{
+    text-align: left;
+    font-size:18px;
+    text-decoration: none; 
+    color:blueviolet;
+    font-weight: bold; 
+    background-color:white; 
+    display: inline-block; 
+    border-style: solid;
+    border-radius: 20px 20px;
+    padding: 5px;
+    
+}
+
+ .img-capa{
+    width: 100%;
+ }
+
+.secao{
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 auto;
+}
+.galeria{
+    display: flex;
+    overflow: scroll;
+    margin: 0 auto 20px auto;
+    height: 250px;
+    text-align: justify;
+}
+.imagem-sombra{
+    box-shadow: 15px 20px 5px rgb(223, 219, 219);
+    margin: 20px;
+    opacity: 20px;
+}
+
+h2{
+    font-weight: bold;
+    text-align: center;
+    font-size: 30px;
+    color: rgb(165, 19, 19);
+}
+p{
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: justify;
+}
+img{
+    text-align: center;
+    width:1024px ;
+}
+
+.rodape{
+    background-color: blueviolet;
+    color: aliceblue;
+    height: 30px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.informacao a{
+    text-decoration: none;
+}
